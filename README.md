@@ -28,14 +28,6 @@ In the previous assignment you have drawn a state diagram for the _RingBuffer_. 
 
 Add the test class _RingBufferModelTest_ and run the model as part of the maven tests
 
-### Submission
-
-When you're done...
-
-- [x] push your changes to your upstream repository on GitHub
-- [x] on GitHub, [create a release][GitHub creating releases] shown as new version
-- [x] upload the [link to your release][GitHub linking to releases] on the e-learning platform until the specified date and time before the next lecture
-
 
 ## Achieving model coverage on RingBufferModel _(1 point)_
 
@@ -59,14 +51,6 @@ Furthermore, currently _RandomTester_ is used as algorithm for generating sequen
 - Experiment with different _lenght_ parameters in test generation to find out at what length full coverage is achieved
 - Set the aprox. minimum length required to achive full coverage for all metrics in the method `greedyTestWithSimpleModel()` 
 
-### Submission
-
-When you're done...
-
-- [x] push your changes to your upstream repository on GitHub
-- [x] on GitHub, [create a release][GitHub creating releases] shown as new version
-- [x] upload the [link to your release][GitHub linking to releases] on the e-learning platform until the specified date and time before the next lecture
-
 
 ## Extending the model to RingBufferModelWithAdapter _(3 points)_
 
@@ -87,14 +71,6 @@ the expected response
 
 Write a unit test _RingBufferModelWithAdapterTest_ to exercise _RingBufferModelWithAdapter_ as part of the maven tests
  
-### Submission
-
-When you're done...
-
-- [x] push your changes to your upstream repository on GitHub
-- [x] on GitHub, [create a release][GitHub creating releases] shown as new version
-- [x] upload the [link to your release][GitHub linking to releases] on the e-learning platform until the specified date and time before the next lecture
-
 
 ## Measure code coverage on RingBuffer _(1 point)_
 
@@ -113,14 +89,6 @@ Document the code coverage achieved for different levels of model coverage in th
 | StateCoverage          | TBD        | TBD           |
 | TransitionCoverage     | TBD        | TBD           |
 | TransitionPairCoverage | TBD        | TBD           | 
-
-### Submission
-
-When you're done...
-
-- [x] push your changes to your upstream repository on GitHub
-- [x] on GitHub, [create a release][GitHub creating releases] shown as new version
-- [x] upload the [link to your release][GitHub linking to releases] on the e-learning platform until the specified date and time before the next lecture
 
 
 ## Adventures with Monkey Tests _(2 points)_
@@ -144,7 +112,8 @@ Read the book chapter carefully and answer following questions. Document each of
 
 *TBD: Answer here*
 
-### Submission
+
+## Submission
 
 When you're done...
 
