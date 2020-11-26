@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 /**
- * The RingBuffer class represents a last-in-first-out (LIFO) circular queue of elements. 
+ * The RingBuffer class represents a first-in-first-out (FIFO) circular queue of elements. 
  * The buffer is bounded. It has a maximum capacity of elements it can hold. If more elements 
  * are added, the last element will overwrite the first one.
  * 
