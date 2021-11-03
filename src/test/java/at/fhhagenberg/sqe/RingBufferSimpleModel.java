@@ -23,7 +23,7 @@ public class RingBufferSimpleModel implements FsmModel {
 			return "FULL";
 		} else if ((size > 0) && (size < CAPACITY)) {
 			return "FILLED";
-		} else return "ERROR_UNEXPECTED_MODEL_STATE";
+		} else throw new IllegalStateException();
 	}
 
 	public void reset(boolean testing) {
