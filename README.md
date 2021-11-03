@@ -13,7 +13,7 @@ The repository already contains a model class _RingBufferSimpleModel_ and a test
 
 - [x] Run the test (and the model) by `mvn test`                                      
 - [x] Read the code of _RingBufferSimpleModel_ and use it as basis for your test model
-- [x] Note: The test model class _RingBufferSimpleModel_ contains a main method; you can also run the model without the need of a separate test class
+- [x] Note: The test model class _RingBufferSimpleModel_ contains a main method; you can also run the model in your IDE without the need of a separate test class
 
 ### Instructions
 
@@ -58,14 +58,13 @@ Extend your _RingBufferModel_ with calls to the methods of the class _RingBuffer
 
 ### Prerequisites
 
-Base your test model on the previously written class _RingBufferModel_. Name the resulting model _RingBufferModelWithAdapter_. 
+Reuse your test model from the previously written class _RingBufferModel_. Name the resulting model _RingBufferModelWithAdapter_. 
 
 ### Instructions
 
-The model should extend the existing actions with calls to the corresponding methods of the class _RingBuffer_ and the resulting response (i.e., returned values, thrown exceptions) should be compared to 
-the expected response  
+The model should extend the existing actions with calls to the corresponding methods of the class _RingBuffer_ and the resulting response (i.e., returned values, thrown exceptions) should be compared to the expected response  
 
-- Extend every action method with a call to the corresponding method of the class _RingBuffer_
+- Add a call to the corresponding method of the class _RingBuffer_ to every action method
 - Check the return value of the method call: Make use of the model's state variables (counters) to assert the correct response using JUnit assert methods
 - In case of expected exceptions, make sure that (1) exceptions are actually thrown and (2) they are of the correct type and contain the correct message 
 
@@ -78,7 +77,7 @@ The test model _RingBufferModelWithAdapter_ exercises the class _RingBuffer_ whe
 
 ### Instructions
 
-- Activate the _JaCoCo plugin_ by commenting in the corresponding section in the _pom.xml_ 
+- Use the _JaCoCo plugin_ in the corresponding section in the _pom.xml_ 
 - Run the _RingBufferModelWithAdapter_ to measure the code coverage
 
 Document the code coverage achieved for different levels of model coverage in the following table:
